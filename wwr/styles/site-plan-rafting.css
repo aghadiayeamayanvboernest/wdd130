@@ -1,61 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&family=Oswald:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-    --primary-color: ##0B3D91;
-    --secondary-color: ##FFD700;
-    --accent1-color: ##228B22;
-    --accent2-color: ##FFFFFF;
+    --primary-color: #0B3D91;
+    --secondary-color: #FFD700;
+    --accent1-color: #228B22;
+    --accent2-color: #FFFFFF;
 
-    --heading-font: 'Montserrat', san-serif;
-    --paragraph-font: 'Roboto' , san-serif;
-
-    --navigation-background-color: #228822;
-    --navigation-link-color: #0b3d91;
-    --navigationn-hover-link-color: #0b3d91;
-    --navigation-hover-background-color: ##FFD700;
-
+    --heading-font: 'Montserrat', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+    
+    --nav-background-color: #0b3d91;
+    --nav-link-color: #FFFF;
+    --nav-hover-link-color: #FFFFFF;
+    --nav-hover-background-color: #228B22;
 }
-
 body {
     font-family: var(--paragraph-font);
-    max-width: 960;
+    max-width: 960px;
     padding: 20px;
-
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-
 header {
     padding: 20px;
-    background-color: var(--primary-color)
+    background-color: var(--secondary-color);
 }
-
 p {
-    padding: 10px 0; 
+    padding: 25px;
 }
-
 nav {
-    background-color: var(--navigation-background-color);
-    font-size: 1.2rem;
-    display: flex;
+   background-color: var(--nav-background-color); 
+   font-size: 1.2rem;
+   display: flex;
 }
-
 nav a {
     display: block;
     color: var(--nav-hover-link-color);
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 1rem;
     
 }
-
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
-
-nav a:hover {
-    color: var(--nav-hover-background-color);
-    background-color: var(--nav-hover-background-color) 
+nav a:hover { 
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
