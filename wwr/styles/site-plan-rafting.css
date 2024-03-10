@@ -18,6 +18,14 @@ body {
     --nav-link-color: #0b3d91;
     --nav-hover-link-color: #0b3d91;
     --nav-hover-background-color: ##FFD700;
+
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960;
+    padding: 20px;
+
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
