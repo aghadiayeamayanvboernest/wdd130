@@ -53,7 +53,7 @@ footer {
 /* class selectors */
 .box {
   margin: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, .2);
   padding: 10px;
   background-color: #eee; 
   color: #333; 
@@ -61,7 +61,7 @@ footer {
 }
 aside h2 {
     position: absolute;
-    top: 37rem;
+    top: 45rem;
     left: 150px;
 }
 
