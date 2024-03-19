@@ -35,7 +35,7 @@ body {
 .hero {
     position: relative;
     max-width: 200%;
-    padding: auto;
+    
 }
 .hero img {
     height: auto;
