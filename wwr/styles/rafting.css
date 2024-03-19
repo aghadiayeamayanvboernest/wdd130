@@ -57,10 +57,10 @@ body {
 .hero article {
     position: absolute;
     background-color: var(--primary-color);
-    padding: 10px;
     top: 30%;
     left: 30px;
-    right: 30px;  
+    right: 30px; 
+    padding: 10px;
     
 }
 
@@ -70,5 +70,5 @@ body {
     
 }
 .hero article p {
-    color: var(--accent2-color);   
+    color: var(--accent2-color);    
 }
