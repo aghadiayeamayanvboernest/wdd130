@@ -70,6 +70,5 @@ body {
     
 }
 .hero article p {
-    color: var(--accent2-color);
-    opacity: 
+    color: var(--accent2-color);   
 }
