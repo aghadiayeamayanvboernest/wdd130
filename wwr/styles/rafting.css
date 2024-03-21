@@ -6,6 +6,7 @@
     --accent1-color: #228B22;
     --accent2-color: #FFFFFF;
     --accent3-color: #333;
+    --accent4-color: #76ABDF;
 
     --heading-font: 'Montserrat', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
@@ -50,17 +51,18 @@ body {
     left: 1px; 
     right: 1px; 
     text-align: center;
-    opacity: 0.5;
+    opacity: 0.7;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .hero article {
     position: absolute;
-    background-color: var(--primary-color);
+    background-color: var(--accent4-color);
     top: 30%;
     left: 30px;
     right: 30px; 
     padding: 10px;
+    opacity: 0.9;
     
     
 }
