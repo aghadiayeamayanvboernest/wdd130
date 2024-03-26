@@ -30,7 +30,6 @@ p {
     
 }
 body {
-    max-width: auto;
     margin: 0 auto;
     
 }
@@ -80,7 +79,7 @@ header {
     margin: auto;
     grid-template-columns: 300px 1fr;
     align-items: center;
-    max-width: auto;
+
     border-bottom: 3px solid #ccc;   
     background-color: var(--primary-color);
     padding-left: 20px;
@@ -90,7 +89,7 @@ header {
 .logo img {
     max-width: 64%;
     height: auto;
-    margin: 0 0.25 0 1rem;
+    margin: 0 0 0 1rem;
 }
 nav {
    text-align: center; 
@@ -115,7 +114,7 @@ nav {
 }
 .navigation a:hover {
    color: #FFFFFF; 
-   font-weight: 700px;
+   font-size: 15px;
    background-color: var(--nav-hover-background-color);
 }
 section {
@@ -143,7 +142,7 @@ section {
 }
 .awaits h2{
     text-align: center;
-    padding: auto;
+    padding: 0 ;
 }
 .awaits-images {
     display: flex;
