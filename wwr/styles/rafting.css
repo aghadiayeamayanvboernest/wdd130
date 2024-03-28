@@ -127,18 +127,20 @@ section {
     text-align: center;
 }
 .history P {
+    display: flex;
+    align-items: center;
     font-size: 15px;
     text-align: justify;
 }
 .history img{
-    display: grid;
-    max-width: 120PX;
-    max-height: 100px;
-    float: inline-start;
-    padding-right: 10px;
+    margin: 0 10px;
+    max-width: 100px;
+    
+    
 }
 .awaits{
     border-bottom: 10px solid #ccc; 
+    font-size: 20px;
 }
 .awaits h2{
     text-align: center;
