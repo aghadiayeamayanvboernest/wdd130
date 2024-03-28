@@ -70,7 +70,8 @@ body {
 }
 
 .hero article p {
-    color: var(--accent3-color);    
+    color: var(--accent3-color);   
+    font-family: var(--paragraph-font); 
 }
 
 header {
