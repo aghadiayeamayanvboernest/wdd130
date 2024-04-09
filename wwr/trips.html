@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ernesto's Rapid Rush Rafting | Contact Us | Aghadiaye Amayanvbo Ernest | WDD130❤</title>
+    <meta name="description" content="Crafting an engaging Contact Us page for my rafting site project, offering vital contact information, inquiry forms, and interactive maps, while fostering communication with customers to ensure seamless engagement and support, ultimately enhancing the accessibility and success of my rafting business.">
+    <meta name="author" content="Aghadiaye Amayanvbo Ernest">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <!--The header consists of a logo, as per the rafting site plan, located in the 'images' directory within 'wwr,' along with a navigation element comprising four <a> tags labeled as index.html, about.html, trips.html, and contact.html, each with assigned href attributes pointing to their respective page references.-->
+        <div class="logo">
+            <img src="images/logo.png" alt="Rafting site logo">
+        </div>    
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--main content-->
+    <main>
+        <!--Company information-->
+        <section class="company-information">
+            <div class="company-information-content">
+                <h1>Company Information</h1>
+                <h2>Ernesto's Rapid Rush Rafting</h2>
+                <p>Address: 62, Lucky Street, Off Adolor College Road, Benin City, Edo State, Nigeria.</p>
+                <p>Phone: +2349056499778</p>
+                <p>Email: <a href="mailto:">info@ernestosrapidrushrafting.com</a></p>
+                <p></p>
+            </div>    
+            <div class="map-embeddig">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d107826.6674279282!2d5.6278336422653314!3d6.341818292825159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1712109614180!5m2!1sen!2sus"></iframe>
+            </div>
+        </section>
+        <!--Empoyee-profiles-->
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="profile">
+                <figure>
+                    <img src="images/employee-profile3.png" alt="employee image 1">
+                    <figcaption>John Doe - Rafting Guide</figcaption>
+                </figure> 
+                <figure>
+                    <img src="images/profile3.png" alt="employee image 1">
+                    <figcaption>Peter jacob - Adventure Coordinator</figcaption>
+                </figure>  
+                <figure>
+                    <img src="images/profile1.png" alt="employee image 3">
+                    <figcaption>Favour Johnson - Customer Support</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section>
+            <h2>Get In Touch</h2>
+            <form class="form">
+                <div class="contact-form">
+                    <div class="name">
+                        <label for="fullname">Fullname:</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+                    <div class="email">
+                        <label for="Email">Email:</label>
+                     <input type="Email" id="Email" name="email" required>
+                     </div>
+                     <div class="purpose">
+                        <label for="general">Purpose of Message:</label><br>
+                        <div class="radio-options">
+                            <input type="radio" id="general" name="purpose" value="general">
+                            <label for="general">General Inquiry</label><br>
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
+                            <label for="reservation">Reservation Question</label><br>
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <label for="message"> The message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <div class="subscribe">
+                        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                        <label for="subscribe">Please subscribe me to the monthly Newsletter</label>
+                    </div>
+                    <button type="submit">Click to Submit</button>
+                </div>
+                <div class="contact-image">
+                    <img src="images/contactusimg.png" alt="contact-image">
+                </div>    
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>©2024 ❤ Ernesto's Rapid Rush Rafting ❤ Aghadiaye Amayanvbo Ernest </p>
+        <nav class="wireframe">
+            <a href="images/Ernestocontactwireframe.png" target="_blank">
+                <img src="images/wireframe.png" alt="Contact us wireframe">
+            </a>
+        </nav>
+        <nav class="socialmedialinks">
+            <a href="https://tiktok.com" target="_blank">
+                <img src="images/tiktokimage.png" alt="TikTok">
+            </a>    
+            <a href="https//facebook.com" target="_blank">
+                <img src="images/Facebookimage.png" alt="FaceBook">
+            </a>
+            <a href="https//instagram.com" target="_blank">
+                <img src="images/instagramimage.png" alt="Instagram">
+            </a>   
+        </nav>
+    </footer>
+
+</body> 
+</html>

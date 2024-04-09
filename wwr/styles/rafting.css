@@ -190,7 +190,7 @@ h1, h2 {
 
 .profile {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .profile figure img {
     width: 100%;
@@ -209,9 +209,10 @@ h1, h2 {
     margin: 0;
     border-bottom: 10px solid #ccc;
     padding-bottom: 10px;
+    width: 100%;
 }
 .contact-form {
-    width: 800px;
+    width: 50%;
     padding: 20px; 
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 9px;
@@ -223,7 +224,7 @@ h1, h2 {
     padding-right:10px;
 }
 .contact-form input[type="text"], [type="email"] {
-    width: 70%;
+    width: 50%;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -236,9 +237,9 @@ h1, h2 {
 }
 .contact-form textarea{
     font-size: 15px;
-    width: 750px;
-    max-width: 750px;
-    min-width: 700px;
+    width: 70%;
+    max-width: 70%;
+    min-width: 40%;
     height:  auto;
     min-height: 200px;
     max-height: 200px;
@@ -246,8 +247,9 @@ h1, h2 {
     border: 1px solid #ccc;
 }
 .contact-image {
-    width: 800px;
+    width: 50%;
     height: auto;
+    text-align: center;
 
 }
 .contact-form button{
@@ -284,17 +286,10 @@ footer p {
     justify-content: space-evenly;
     padding-right: 20px;
 }
-.socialmedialinks img a{
+.socialmedialinks img {
     width: 30px;
     height: auto;
 }
 .socialmedialinks a {
-    text-decoration: none;
-}
-.wireframe img  a {
-    width: 30px;
-    height: auto;
-}
-.wireframe a {
     text-decoration: none;
 }
