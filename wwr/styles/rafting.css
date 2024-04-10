@@ -7,6 +7,7 @@
     --accent2-color: #FFFFFF;
     --accent3-color: #100c08;
     --accent4-color: #76ABDF;
+    --accent5-color:orange;
 
     --heading-font: 'Montserrat', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
@@ -17,9 +18,9 @@
     --nav-hover-background-color: orange;
 }
 
-h1, h2 {
+h1, h2, h3{
     font-family: var(--heading-font);
-    color: var(--accent3-color);
+    color: var(--accent5-color);
 }
 
 p {
@@ -148,14 +149,14 @@ section {
     display: flex;
     justify-content: space-between;
 }
-figure {
+.awaits-images figure {
     text-align: center;
     
 }
-figure img {
+.awaits-images figure img {
     max-width: 100%;
 }
-figcaption {
+.awaits-images figcaption {
     font-size: 0.9rem;
     margin-top: 5px;
 }
@@ -166,9 +167,13 @@ figcaption {
     margin: 0 auto;
         
 }
-.company-information-content h1 {
+.company-information-content h1  {
    text-align: center;
    font-size: 30px; 
+   
+}
+.company-information-content h2 {
+    color: #000000;
 }
 .company-information-content p{
     flex: 1;
@@ -292,4 +297,172 @@ footer p {
 }
 .socialmedialinks a {
     text-decoration: none;
+}
+
+.slide {
+    position: relative;
+    max-width: 200%;
+    max-height: 20%;
+}
+.slide img {
+    max-height: 800px;
+    width: 100%;
+    display: block;
+}
+.slide h1 {
+    position: absolute;
+    color: var(--accent2-color);
+    top: 5%;  
+    left: 1px;
+    right: 1px; 
+    text-align:left;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    padding: 20px;
+}
+.text {
+    position: absolute;
+    color: white;
+    top: 80%;
+    left: 1px;
+    right: 1px;
+    text-align: right;
+    font-family:cursive;
+    font-size: 20px;
+    padding: 10px;
+}.purpose {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin: auto;
+}
+
+.purpose p {
+    font-size: 20px;
+    text-align: center;
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.grid figure {
+    text-align: center;
+}
+.grid figure img {
+    max-width: 100%
+}
+.grid figcaption {
+    margin-top: 10px;  
+}
+.grid .content {
+    margin: none;
+}
+.grid .content p {
+    margin-top: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    text-align: center;
+}
+.grid .content h3 {
+    text-align: center;
+    font-size: 15px;
+}
+.grid .content a{
+    text-decoration: none;
+}
+.grid .content .button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: blue;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.grid .content .button:hover{
+    color: red;
+    transition-duration: 1s;
+}
+.call-to-action {
+    padding: 10px;
+    margin: auto;
+}
+.call-to-action p {
+    font-size: 20px;
+    text-align: center;
+}
+.call {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.call figure {
+    text-align: center;
+}
+.call figure img {
+    max-width: 100%
+}
+.call figcaption {
+    margin-top: 10px; 
+}
+
+.call figcaption a {
+    text-decoration: none;
+}
+.call figcaption .button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: blue;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.call figcaption .button:hover {
+    color: red;
+    transition-duration: 1s;
+}
+
+.call .Newsletter h3 {
+    text-align: center;
+    font-size: 15px;
+}
+.call form {
+    width: 70%;
+    height: 40%;
+    padding: 20px; 
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    background-color:#ccc;
+    padding-bottom: 10px;
+}
+.call form input[type="text"], [type="email"] {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.call form label  {
+    text-align: right;
+    padding-right:10px;
+}
+.call form button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: #000000;
+    background-color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+} 
+.call form button:hover {
+    color: red;
+    background-color: #228B22;
+    transition-duration: 1s;
 }
