@@ -20,7 +20,7 @@
 
 h1, h2, h3{
     font-family: var(--heading-font);
-    color: var(--accent3-color);
+    color: var(--accent5-color);
 }
 
 p {
