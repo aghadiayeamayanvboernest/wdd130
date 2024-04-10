@@ -20,7 +20,7 @@
 
 h1, h2, h3{
     font-family: var(--heading-font);
-    color: var(--accent5-color);
+    color: var(--accent3-color);
 }
 
 p {
@@ -356,10 +356,10 @@ footer p {
     margin-top: 10px;  
 }
 .grid .content {
-    margin: none;
+    margin: 0;
 }
 .grid .content p {
-    margin-top: none;
+    margin-top: 0;
     font-family:'Times New Roman', Times, serif;
     font-size: 17px;
     text-align: center;
