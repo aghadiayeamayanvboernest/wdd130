@@ -20,7 +20,7 @@
 
 h1, h2, h3{
     font-family: var(--heading-font);
-    color: var(--accent5-color);
+    color: var(--accent3-color);
 }
 
 p {
@@ -372,7 +372,7 @@ footer p {
     text-decoration: none;
 }
 .grid .content .button {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--heading-font);
     font-size: 17px;
     color: blue;
     border: none;
@@ -412,7 +412,7 @@ footer p {
     text-decoration: none;
 }
 .call figcaption .button {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--heading-font);
     font-size: 17px;
     color: blue;
     border: none;
@@ -450,7 +450,7 @@ footer p {
     padding-right:10px;
 }
 .call form button {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--heading-font);
     font-size: 17px;
     color: #000000;
     background-color: #007bff;
@@ -466,3 +466,147 @@ footer p {
     background-color: #228B22;
     transition-duration: 1s;
 }
+.action {
+    position: relative;
+    max-width: 200%;
+    max-height: 20%;
+    margin-bottom: 50px;
+}
+.action img {
+    max-height: 800px;
+    width: 100%;
+    display: block;
+}
+.action h1 {
+    position: absolute;
+    color: var(--accent2-color);
+    top: 0;  
+    left: 1px;
+    right: 1px; 
+    text-align:left;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    padding: 20px;
+}
+.texttrip {
+    position: absolute;
+    color: white;
+    top: 75%;
+    left: 1px;
+    right: 1px;
+    text-align: right;
+    font-family:cursive;
+    font-size: 20px;
+    padding: 10px;
+}
+.texttrip a {
+    text-decoration: none;
+}
+
+.texttrip .button {
+    font-family: var(--heading-font);
+    font-size: 17px;
+    background-color: #007bff;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+.texttrip .button:hover {
+    color: red;
+    background-color: #228B22;
+    transition-duration: 1s;
+}
+
+.tripdescriptions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 50px ;
+    border-bottom: 1px solid #ccc;
+}
+.tripdescriptions article {
+    text-align: center;
+}
+.tripdescriptions article img {
+    max-width: 100%;
+}
+.tripdescriptions article  a {
+    text-decoration: none;
+}
+.tripdescriptions article .button {
+    font-family: var(--heading-font);
+    font-size: 17px;
+    background-color: #007bff;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.tripdescriptions article .button:hover {
+    color: red;
+    background-color: #228B22;
+    transition-duration: 1s;
+}
+
+.trip-table {
+  margin-top: 20px;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.trip-table th, .trip-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.trip-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+.trip-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.trip-table tbody tr:hover {
+  background-color: #e9e9e9;
+}
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;;
+  }
+  
+  .testimonial {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+  }
+  
+  .testimonial-author img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    margin-right: 10px;
+  }
+  
+  .testimonial-author p {
+    font-weight: bold;
+  }
+  
+  .testimonial-content p {
+    font-style: italic;
+  }
